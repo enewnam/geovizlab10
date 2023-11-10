@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>E Newnam Lab 10</title>
+<meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+<script src="Lab10.js"></script>
+<script src="https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.js"></script>
+<link href="https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.css" rel="stylesheet" />
+<link rel="stylesheet" type="text/css" href="Lab10.css" />
+</head>
+<body>
+
+    <div id="map"></div>
+
+    <div id="mapclose"></div>
+
+    <div class="title"><font class="titlefont">Philadelphia Building Footprint Map</font></div>
+
+    <div class="textbox">This map was created using a Philadelphia Buildings dataset (2017) and a Philadelphia Park Boundaries dataset (2016) both provided by the City of Philadelphia and sourced from PASDA. The map style was created using Mapbox.</div>
+
+    <div class="mouseover">
+      <div id="pd"><p>Mouse over each building from either map to see the building ID.</p></div>
+    </div>
+
+    <div id="legend" class="legend"></div>
+
+</body>
+</html>
